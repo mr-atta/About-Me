@@ -40,13 +40,15 @@ function condition (ans){
 
 alert('Thanks for your time , See you later.');
 
+// now lab 03
+
 let graed = 0 ;
 let num = 8 ;
 
 for(let i = 1; i <= 4 ;i++) {
- let ans6 =  prompt(' guess a number.'); 
+ let ans6 = Number( prompt(' guess my number.')); 
  console.log("The Entered Number Is " + ans6 );
- if(ans6 == num){ 
+ if(ans6 === num){ 
    graed++ ;
    break ;
    }
@@ -61,7 +63,7 @@ alert('WELCOME LEVEL 02 ');
 let  Canseres = [5 , 15 , 25 , 50] ;
 
 for(let m = 0 ; m < Canseres.length ; m++){
-  let ans7 =  prompt(' guess a number.'); 
+  let ans7 = Number(prompt(' guess a number.')); 
   console.log("The Entered Number Is " + ans7 );
  for(let k = 0 ; k < Canseres.length ; k++){
    
